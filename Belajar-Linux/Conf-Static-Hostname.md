@@ -6,7 +6,7 @@
 
 ##Details
 
-1. Gunakan Perintah Berikut untuk Membuka file Hostname
+1. **Gunakan Perintah Berikut untuk Membuka file Hostname**
 
 ```bash
 nano /etc/hostname
