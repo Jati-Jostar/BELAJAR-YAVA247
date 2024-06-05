@@ -4,7 +4,7 @@
 
 ---
 
-##Details
+## Details
 
 1. **Gunakan Perintah Berikut untuk Membuka file Hostname**
 
