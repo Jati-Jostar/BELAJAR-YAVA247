@@ -1,13 +1,12 @@
-Markdown
-## Konfigurasi Static Hostname FQDN (Full Qualified Domain Name)
+# Konfigurasi Static Hostname FQDN (Full Qualified Domain Name)
 
-**Tanggal:** 4 Juni 2024
+## 4 Juni 2024
 
-**Detail:**
+---
 
-**Langkah 1: Buka file hostname**
+##Details
 
-Gunakan perintah berikut untuk membuka file hostname:
+1. Gunakan Perintah Berikut untuk Membuka file Hostname
 
 ```bash
 nano /etc/hostname
