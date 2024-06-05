@@ -1,4 +1,3 @@
-
 # Konfigurasi Static Hostname FQDN (Full Qualified Domain Name)
 
 ## 4 Juni 2024
@@ -13,7 +12,8 @@
    nano /etc/hostname
    ```
 2. **Ganti Hostname Sesuai dengan yang diinginkan(jati-server.com)**
-Untuk contohnya
+
+    untuk contohnya
     ```
     jati-server.com
     ```
@@ -28,3 +28,7 @@ Untuk contohnya
     ```
     jika sudah berhasil akan muncul hostname yang diingin kan
     ![Hostname Configuration](https://github.com/Jati-Jostar/BELAJAR-YAVA247/raw/main/asset/hostname.png)
+
+
+    
+
