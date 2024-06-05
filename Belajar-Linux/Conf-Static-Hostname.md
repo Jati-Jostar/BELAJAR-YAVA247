@@ -10,3 +10,5 @@
 
 ```bash
 nano /etc/hostname
+
+2. aksmdaksndkanw
