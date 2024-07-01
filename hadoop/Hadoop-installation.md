@@ -29,7 +29,7 @@
     $ tar -zxf hadoop-3.3.6.tar.gz
     $ mv hadoop-3.3.6 hadoop
     ```
-4. **Konfigurasi Hadoop Enviroment**
+4. **Konfigurasi Hadoop Enviroment**,
     Masuk ke ~/.bashrc untuk menambah konfigurasi
     ```
     vi ~/.bashrc
@@ -67,7 +67,7 @@
     ```
     sesuaikan versi dan lokasi dari Openjdk yang kalian download
     
-    ***Pindah ke $HADOOP_HOME/etc/hadoop dan edit file file berikut***:
+    ***Pindah ke $HADOOP_HOME/etc/hadoop dan edit file file berikut***,
       core-site.xml
     ```
     <configuration>
