@@ -19,8 +19,8 @@
     $ useradd hadoopjati
     $ passwd hadoopjati
     ```
-3. ###Download file RPM Hadoopnya
-    Disini saya menggunakan versi 3.3.6
+3. **Download file RPM Hadoopnya**
+    *Disini saya menggunakan versi 3.3.6*
     ```
     $ wget https://dlcdn.apache.org/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
     ```
@@ -30,7 +30,7 @@
     $ mv hadoop-3.3.6 hadoop
     ```
 4. **Konfigurasi Hadoop Enviroment**,
-    Masuk ke ~/.bashrc untuk menambah konfigurasi
+    *Masuk ke ~/.bashrc untuk menambah konfigurasi*
     ```
     vi ~/.bashrc
     ```
@@ -51,7 +51,7 @@
     source ~/.bashrc
     ```
 4. **Konfigurasi HDFS((hadoop-env.sh, core-site.xml, hdfs-site.xml, mapred-site.xml, yarn-site.xml)**
-   ***Buat 2 file datanode dan namenode di bawah home user***
+   *Buat 2 file datanode dan namenode di bawah home user*
     ```
     $ mkdir -p ~/hadoopdata/hdfs/{namenode,datanode}
     ```
@@ -68,7 +68,7 @@
     sesuaikan versi dan lokasi dari Openjdk yang kalian download
     
     ###Pindah ke $HADOOP_HOME/etc/hadoop dan edit file file berikut
-      core-site.xml
+      *core-site.xml*
     ```
     <configuration>
         <property>
@@ -77,7 +77,7 @@
         </property>
     </configuration>
     ```
-    hdfs-site.xml
+    *hdfs-site.xml*
     ```
     <configuration>
         <property>
@@ -94,7 +94,7 @@
         </property>
     </configuration>
     ```
-    mapred-site.xml
+    *mapred-site.xml*
     ```
     <configuration>
     <property>
@@ -115,7 +115,7 @@
     </property>
     </configuration>
     ```
-    yarn-site.xml
+    *yarn-site.xml*
     ```
     <configuration>
 
