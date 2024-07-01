@@ -19,7 +19,7 @@
     $ useradd hadoopjati
     $ passwd hadoopjati
     ```
-3. **Download file RPM Hadoopnya**
+3. ###Download file RPM Hadoopnya
     Disini saya menggunakan versi 3.3.6
     ```
     $ wget https://dlcdn.apache.org/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
@@ -67,7 +67,7 @@
     ```
     sesuaikan versi dan lokasi dari Openjdk yang kalian download
     
-    ***Pindah ke $HADOOP_HOME/etc/hadoop dan edit file file berikut***,
+    ###Pindah ke $HADOOP_HOME/etc/hadoop dan edit file file berikut
       core-site.xml
     ```
     <configuration>
