@@ -153,8 +153,8 @@
     $ start-yarn.sh
     ```
 8. **Periksa tampilan UI di web**
-    <ipVM>:9870 untuk HDFSnya
+    ipVM:9870 untuk HDFSnya
      ![](https://github.com/Jati-Jostar/BELAJAR-YAVA247/raw/main/asset/HadoopUI.png)
     dan
-    <ipVM>:8088 untuk YARNnya
+    ipVM:8088 untuk YARNnya
     ![](https://github.com/Jati-Jostar/BELAJAR-YAVA247/raw/main/asset/YarnUI.png)
