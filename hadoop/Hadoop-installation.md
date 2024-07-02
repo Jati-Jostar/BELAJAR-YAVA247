@@ -61,13 +61,13 @@
     ```
     ***hilangkan # dan ganti bagian***
     ```
-    # export JAVA_HOME=
+    .# export JAVA_HOME=
     (Jadi seperti di bawah)
     export JAVA_HOME=/usr/lib/jvm/jre-1.8.0-openjdk-1.8.0.412.b08-2.el8.x86_64
     ```
     sesuaikan versi dan lokasi dari Openjdk yang kalian download
     
-    ###Pindah ke $HADOOP_HOME/etc/hadoop dan edit file file berikut
+    ### Pindah ke $HADOOP_HOME/etc/hadoop dan edit file file berikut
       *core-site.xml*
     ```
     <configuration>
