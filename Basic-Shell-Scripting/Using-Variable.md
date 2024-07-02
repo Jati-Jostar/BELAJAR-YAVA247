@@ -49,3 +49,15 @@ Penggunaan variabel dalam shell scripting sangat penting untuk menyimpan data se
   ```
   nama_variable="Isi variable"
   ```
+- Menggunakan Variable
+  Kamu bisa memanggil variable menggunakan symbol $ dan di sertai nama variablenya
+  ```
+  echo $nama_variable
+  ```
+- Menerima Input Variable dari Pengguna
+  Kamu bisa membuat variable dari inputan si pengguna Menggunakan “read”
+  ```
+  echo "Masukan Nama Anda:"
+  read nama_pengguna
+  echo "Hallo, $nama_pengguna"
+  ```
