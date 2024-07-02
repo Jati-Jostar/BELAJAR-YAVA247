@@ -67,7 +67,7 @@
     ```
     sesuaikan versi dan lokasi dari Openjdk yang kalian download
     
-    ### Pindah ke $HADOOP_HOME/etc/hadoop dan edit file file berikut
+    ###### Pindah ke $HADOOP_HOME/etc/hadoop dan edit file file berikut
       *core-site.xml*
     ```
     <configuration>
