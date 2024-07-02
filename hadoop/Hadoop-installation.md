@@ -99,19 +99,27 @@
     <configuration>
     <property>
         <name>yarn.app.mapreduce.am.env</name>
-        <value>HADOOP_MAPRED_HOME=${full path of your hadoop distribution directory}</value>
+        <value>HADOOP_MAPRED_HOME=/home/hadoopjati/hadoop</value>
     </property>
     <property>
         <name>mapreduce.map.env</name>
-        <value>HADOOP_MAPRED_HOME=${full path of your hadoop distribution directory}</value>
+        <value>HADOOP_MAPRED_HOME=/home/hadoopjati/hadoop</value>
     </property>
     <property>
         <name>mapreduce.reduce.env</name>
-        <value>HADOOP_MAPRED_HOME=${full path of your hadoop distribution directory}</value>
+        <value>HADOOP_MAPRED_HOME=/home/hadoopjati/hadoop</value>
     </property>
     <property>
         <name>mapreduce.framework.name</name>
         <value>yarn</value>
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.address</name>
+        <value>jati-server.com:10020</value>
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.webapp.address</name>
+        <value>jati-server.com:19888</value>
     </property>
     </configuration>
     ```
