@@ -4,7 +4,7 @@
 
 ## Details
 
-1. **Install JDK 1.8.0**
+1. ##### Install JDK 1.8.0
 
    ``` 
    su
@@ -14,12 +14,12 @@
    ```
    java -version
    ```
-2. **Buat User Baru Untuk Instalasi Hadoopnya**
+2. ##### Buat User Baru Untuk Instalasi Hadoopnya
     ```
     $ useradd hadoopjati
     $ passwd hadoopjati
     ```
-3. **Download file RPM Hadoopnya**
+3. ##### Download file RPM Hadoopnya
     *Disini saya menggunakan versi 3.3.6*
     ```
     $ wget https://dlcdn.apache.org/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
@@ -29,7 +29,7 @@
     $ tar -zxf hadoop-3.3.6.tar.gz
     $ mv hadoop-3.3.6 hadoop
     ```
-4. **Konfigurasi Hadoop Enviroment**,
+4. ##### Konfigurasi Hadoop Enviroment
     *Masuk ke ~/.bashrc untuk menambah konfigurasi*
     ```
     vi ~/.bashrc
@@ -50,7 +50,7 @@
     ```
     source ~/.bashrc
     ```
-4. **Konfigurasi HDFS((hadoop-env.sh, core-site.xml, hdfs-site.xml, mapred-site.xml, yarn-site.xml)**
+4. ##### Konfigurasi HDFS((hadoop-env.sh, core-site.xml, hdfs-site.xml, mapred-site.xml, yarn-site.xml)
    *Buat 2 file datanode dan namenode di bawah home user*
     ```
     $ mkdir -p ~/hadoopdata/hdfs/{namenode,datanode}
@@ -134,27 +134,26 @@
 
     </configuration>
     ```
-4. **Memformat namenode**
+4. ##### Memformat namenode
     ```
     $ hdfs namenode -format
     ```
-5. **Setting firewall**
+5. ##### Setting firewall
     ```
     firewall-cmd --permanent --add-port=9870/tcp
     firewall-cmd --permanent --add-port=8088/tcp
     firewall-cmd --reload
     ```
-6. **Start Dfs**
+6. ##### Start Dfs
     ```
     $ start-dfs.sh
     ```
-7. **Start Yarn**
+7. ##### Start Yarn
     ```
     $ start-yarn.sh
     ```
-8. **Periksa tampilan UI di web**
-ipVM:9870 untuk HDFSnya
+8. ##### Periksa tampilan UI di web
+(ipVM:9870) untuk HDFSnya
      ![](https://github.com/Jati-Jostar/BELAJAR-YAVA247/raw/main/asset/HadoopUI.png)
-    dan
-ipVM:8088 untuk YARNnya
+    dan (ipVM:8088) untuk YARNnya
     ![](https://github.com/Jati-Jostar/BELAJAR-YAVA247/raw/main/asset/YarnUI.png)
