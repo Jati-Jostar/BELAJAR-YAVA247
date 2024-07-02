@@ -132,7 +132,7 @@
         <value>org.apache.hadoop.mapred.ShuffleHandler</value>
     </property>
 
-    </configuration>
+   </configuration>
     ```
 4. ##### Memformat namenode
     ```
