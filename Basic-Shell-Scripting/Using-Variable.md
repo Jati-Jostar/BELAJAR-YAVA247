@@ -42,3 +42,10 @@ Ada variabel bawaan yang memiliki makna khusus, seperti $? yang berisi kode kelu
 Anda dapat membuat variabel yang berisi beberapa nilai dalam bentuk array.
 
 Penggunaan variabel dalam shell scripting sangat penting untuk menyimpan data sementara, berkomunikasi antara program, dan melakukan manipulasi data. Dengan memahami cara mendefinisikan, mengakses, dan mengelola variabel, Anda dapat membuat skrip shell yang lebih kuat dan efisien
+
+## Membuat dan Menggunakan Variabel dalam Shell Script
+- Deklarasi Variable dan inisialisasi variable
+  Anda bisa mendeklarasikan dan menginisialisasi variabel tanpa tipe data, cukup dengan menuliskan nama variabel diikuti tanda = dan nilai variabelnya:
+  ```
+  nama_variable="Isi variable"
+  ```
